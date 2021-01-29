@@ -1,0 +1,124 @@
+/*=================================
+       template name: minimo || html template
+       author: Tasnim  
+       version: 1.0.0
+       created: 27 january 2021
+       File Description: main css file od the template
+
+
+   
+
+font-family: 'Ubuntu', sans-serif;
+
+=====================================*/
+
+/* ==========================
+  01.General
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+
+body{
+       margin: 0;
+       padding: 0;
+       font-family: 'Playfair Display', serif;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 24px;
+       color: #626262;
+       box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+       font-family: 'Playfair Display', serif;
+       font-weight: 400;
+       font-size: 14px;
+       margin: 0;
+}
+p{
+       font-family: 'Playfair Display', serif;
+       font-weight: 400;
+       font-size: 14px;
+       color: #626262;
+       margin: 0;
+
+}
+a{     font-size: 14px;
+       color:#626262;
+       text-decoration: none;
+
+}
+
+/*====================================
+       HEADER STYLE START HERE
+=======================================*/
+header{
+       padding: 70px 0;
+}
+.container{
+       width: 80%;
+       margin: 0 auto;
+       overflow: hidden;
+}
+.logo{
+       width: 30%;
+       float: left;
+}
+
+.logo a{
+       font-family: 'Inconsolata', monospace;
+       font-weight:400 ;
+       font-size: 30px;
+       text-transform: uppercase;
+       color: #000;
+       letter-spacing: 5px;
+
+}
+
+.menu{
+       width: 70%;
+       float: right;
+
+}
+nav ul{
+       list-style: none;
+       float: right;
+       margin: 0;
+}
+
+nav ul li {
+       float: left;
+}
+nav ul li a {
+       text-transform: uppercase;
+       padding: 0 60px;
+       color: rgb(107, 104, 104) ;
+
+}
+nav ul li:last-child a{
+       padding-right: 0;
+
+}
+nav ul li:last-child a{
+       padding-right: 0;
+}
+nav ul li a:hover{
+       color: rgb(168, 164, 164) !important;
+ }
+
+/*====================================
+       BANNER STYLE START HERE
+======================================= */
+
+.banner {
+       background-image: url(../images/banner.jpg);
+       background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+         min-height: 700px;
+
+}
